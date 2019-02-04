@@ -2,7 +2,7 @@
 body {
   background: #136a8a; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #b3e6eb, #6281c9);
-  background: linear-gradient(to left, #b3e6eb, #6281c9);
+  background: linear-gradient(to left, #acb6e5, #86fde8);
 }
 
 .no-padding {
@@ -38,4 +38,24 @@ input[type=checkbox] {
 
 div.pull-right a {
   margin-left: 1em;
+} 
+
+.row.content {height: 1500px}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #86fde8;
+  height: 100%;
 }
+
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
+}
+
